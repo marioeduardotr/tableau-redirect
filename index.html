@@ -3,7 +3,12 @@
 <head></head>
 <body>
   <script>
-    window.location.replace('https://concepts.int.thomsonreuters.com/marketing-ai-assist');
+    const a = document.createElement('a');
+    a.href = 'https://concepts.int.thomsonreuters.com/marketing-ai-assist';
+    a.rel = 'noreferrer';
+    a.target = '_self';
+    document.body.appendChild(a);
+    a.click();
   </script>
 </body>
 </html>
